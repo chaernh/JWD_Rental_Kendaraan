@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Red Rose', Roboto;
+}
+
+body {
+    background: url('./assets/bg.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.card-login {
+    width: 25rem;
+    top: 10px;
+    left: 100px;
+}
+
+.card-login .form-control {
+    padding-left: 2.375rem;
+    padding-right: 2.375rem;
+}
+
+.card-login .form-control-ic {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.has-email .has-pw {
+    position: relative;
+}
+
+.card-login .form-control-ic-right {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    top: 166px;
+    right: 50px;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.logo {
+    float: right
+}
+
+@media only screen and (max-width: 600px) {
+    .card-login {
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
