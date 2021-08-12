@@ -23,14 +23,20 @@
     background-size: cover;
 } */
 
-.card-login {
-    width: 25rem;
-    top: 10px;
-    left: 100px;
+#login {
+    background: url('./assets/bg.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
 }
 
-.bg-black {
-    background-color: black !important;
+.card-login {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 25rem;
 }
 
 .card-login .form-control {
@@ -58,7 +64,7 @@
     position: absolute;
     z-index: 2;
     display: block;
-    top: 166px;
+    top: 190px;
     right: 50px;
     width: 2.375rem;
     height: 2.375rem;
@@ -68,10 +74,19 @@
     color: #aaa;
 }
 
+#landing {
+    background: url('./assets/bg.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 .banner-wrapper {
-    position: absolute;
+    height: 100vh;
+    position: relative;
     top: 185px;
-    left: 185px;
+    left: 100px;
 }
 
 /* .banner {
@@ -92,6 +107,10 @@
     width: 100%;
     bottom: 0;
 } */
+
+.margin-container {
+    margin-top: 100px;
+}
 
 .title {
     margin: 0;
@@ -124,14 +143,24 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+    #login {
+        display: flex;
+        align-items: center;
+    }
     .card-login {
         width: 100%;
         top: 0;
         left: 0;
     }
 
+    #landing {
+        display: flex;
+        align-items: center;
+    }
+
     .banner-wrapper {
-        top: 0;
+        text-align: center;
+        top: 34vh;
         left: 0;
     }
 }
