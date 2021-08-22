@@ -12,7 +12,7 @@
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
 
-    <title>Isi Detail Transaksi</title>
+    <title>Detail Transaksi</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top py-3 d-flex justify-content-between px-5">
@@ -37,58 +37,69 @@
     </nav>
     <main id="booking">
         <div class="container margin-container">
-            <h3 class="text-center mb-3">Isi Detail Transaksi</h3>
-            <div class="card">
-                <div class="card-body">
+            <h3 class="text-center mb-3">Detail Transaksi</h3>
+            <div class="card mb-3">
+                <div class="card-body bg-grey">
                     <div class="mb-3 row">
-                        <label class="col-sm-2 col-form-label">Lama Sewa</label>
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Nama Pelanggan</label>
                         <div class="col-sm-10">
-                            <input type="text" class="form-control">
+                            <input type="text" readonly class="form-control-plaintext" value="Joko Widodo">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Mobil</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext" value="Honda Civic MT">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Harga Sewa</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext" value="IDR 350.000">
+                        </div>
+                    </div>
+                    <div class="mb-3 row">
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Lama Sewa</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext" value="1 Hari">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="staticEmail" class="col-sm-2 col-form-label">Tanggal Ambil</label>
                         <div class="col-sm-10">
-                            <input type="date" class="form-control">
+                            <input type="text" readonly class="form-control-plaintext" value="20-07-2021">
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label">Fasilitas</label>
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Tanggal Kembali</label>
                         <div class="col-sm-10">
-                            <select class="form-control" aria-label="Default select example">
-                                <option selected disabled>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="mb-3 row">
-                        <label for="staticEmail" class="col-sm-2 col-form-label">Pilih Pembayaran</label>
-                        <div class="col-sm-10">
-                            <select class="form-control" aria-label="Default select example">
-                                <option selected disabled>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
+                            <input type="text" readonly class="form-control-plaintext" value="21-07-2021">
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="staticEmail" class="col-sm-2 col-form-label">Jaminan</label>
                         <div class="col-sm-10">
-                            <select class="form-control" aria-label="Default select example">
-                                <option selected disabled>Open this select menu</option>
-                                <option value="1">One</option>
-                                <option value="2">Two</option>
-                                <option value="3">Three</option>
-                            </select>
+                            <input type="text" readonly class="form-control-plaintext" value="KTP">
                         </div>
                     </div>
                     <div class="mb-3 row">
-                        <div class="col-sm-12">
-                            <button class="btn btn-dark w-100">Booking</button>
+                        <label for="staticEmail" class="col-sm-2 col-form-label">Total Bayar</label>
+                        <div class="col-sm-10">
+                            <input type="text" readonly class="form-control-plaintext" value="IDR 400.000">
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body bg-success-2">
+                    <div class="row text-center px-5">
+                        <h6 class="w-100">Terima Kasih Pesanan Anda Berhasil!</h6>
+                        <p class="text-success-1">
+                            Silahkan anda membayar tagihan anda dengan cara transfer via Bank Mandiri di nomor rekening
+                            214124355166634 a/n SEWAMOBIL
+                            Jika sudah melakukan pembayaran silahkan konfirmasi pada nomor WA 082266354738,  atas konfirmasi
+                            3 jam, jika melebihi batas waktu maka pesanan otomatis dibatalkan.
+                        </p>
                     </div>
                 </div>
             </div>

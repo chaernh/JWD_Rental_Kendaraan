@@ -5,10 +5,25 @@
 
 :root {
     --black-1 : #766E6E;
+    --grey: #E5E5E5;
+    --success-2: #C5FFC3;
+    --success-1: #329730;
 }
 
 .bg-black-1 {
     background-color: var(--black-1);
+}
+
+.bg-grey {
+    background-color: var(--grey);
+}
+
+.bg-success-2 {
+    background-color: var(--success-2);
+}
+
+.text-success-1 {
+    color: var(--success-1);
 }
 
 .margin-main {
